@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <h1>hola gente</h1>
+      <a href='../src/assets/imagen/iconos/comment.svg'>icono</a>
       <p>Bienvenidos a nuestra aplicación de seguimiento de COVID-19</p>
     </>
   )
