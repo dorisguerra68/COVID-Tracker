@@ -153,8 +153,13 @@ export const Table = () => {
     <td>66213858</td>
         </tr>
     </tbody>
-        
-
+    
+    <tfoot>
+        <tr>
+        <td colSpan={3}>Showing 1 to 10 of 225 entries</td>
+        <td colSpan={4}>Previous 1 2 3 4 5 Next</td>
+        </tr>
+    </tfoot>
 
     </table>
  </>

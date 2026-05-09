@@ -13,6 +13,7 @@
     color: #3f3d56;
     margin-bottom: 20px;
     font-size: 1.3rem;
+    font-weight: 600;
 }
 
 
@@ -26,7 +27,7 @@
 .covid-table td {
     padding: 14px 12px;
     text-align: left; /* Alineación por defecto a la izquierda */
-    border-bottom: 1px solid #f3f4f6; /* Línea divisoria sutil */
+    border-bottom: 2px solid #f3f4f6; /* Línea divisoria sutil */
 }
 
 
