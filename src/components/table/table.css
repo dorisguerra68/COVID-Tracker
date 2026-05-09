@@ -1,0 +1,57 @@
+
+.table-container {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+
+.table-container h3 {
+    color: #3f3d56;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+
+.covid-table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 10px;
+}
+
+.covid-table th,
+.covid-table td {
+    padding: 14px 12px;
+    text-align: left; /* Alineación por defecto a la izquierda */
+    border-bottom: 1px solid #f3f4f6; /* Línea divisoria sutil */
+}
+
+
+.covid-table tfoot th {
+    color: #4b5563;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: capitalize; /* Pone la primera letra en mayúscula */
+    background-color: #fafafa;
+}
+
+
+.covid-table tbody tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+
+.covid-table tbody tr:hover {
+    background-color: #f3f4f6;
+    cursor: pointer;
+}
+
+
+.covid-table tbody tr td:nth-child(3) {
+    background-color: #f0f4ff; /* Fondo azul sutil */
+    color: #3b82f6;            /* Texto azul brillante */
+    font-weight: bold;
+}
