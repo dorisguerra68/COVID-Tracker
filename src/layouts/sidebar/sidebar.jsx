@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import {NavLink} from 'react-router-dom';
 import './sidebar.css'; 
 //importar cada icono para usarlo en el menu
@@ -30,4 +30,4 @@ const Sidebar = () => {
     </div>
 );
 };
-
+export default Sidebar;

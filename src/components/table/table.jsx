@@ -1,10 +1,10 @@
-import React from 'react';
+//import React from 'react';
 import './table.css';
 
-export const Table = ({ data }) => {
+export const Table = () => {
     return (
     <>
-        <h3>Ajax Data Table - covid-19 Country Wise State</h3>
+    <h3>Ajax Data Table - covid-19 Country Wise State</h3>
 
     <table className="covid-table">
     <thead>
