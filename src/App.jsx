@@ -1,16 +1,15 @@
-import { useState } from 'react'
+//import React from 'react'
+import { Router } from './router'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+
+function App() {
   return (
-    <>
-      <h1>hola gente</h1>
-      <a href='../src/assets/imagen/iconos/comment.svg'>icono</a>
-      <p>Bienvenidos a nuestra aplicación de seguimiento de COVID-19</p>
-    </>
-  )
+    
+      <Router />
+     
+  );
 }
 
 export default App
