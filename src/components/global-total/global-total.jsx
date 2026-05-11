@@ -5,6 +5,7 @@ import covidGreenIcon from '../../assets/images/icons/covid-green.svg'
 import covidorangeIcon from '../../assets/images/icons/covid-orange.svg'
 import covidredIcon from '../../assets/images/icons/covid-red.svg'
 import telephoneIcon from '../../assets/images/icons/telephone.svg'
+
 function GlobalTotal() {
     return (
         <section className="total-global">
