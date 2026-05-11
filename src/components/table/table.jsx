@@ -4,8 +4,9 @@ import './table.css';
 export const Table = () => {
     return (
     <>
+    <div className="table-container">
     <h3>Ajax Data Table - covid-19 Country Wise State</h3>
-
+    <hr />
     <table className="covid-table">
     <thead>
         <tr>
@@ -162,6 +163,7 @@ export const Table = () => {
     </tfoot>
 
     </table>
+    </div>
  </>
     );
 }
