@@ -32,10 +32,10 @@ h2{
     font-size: 1.5rem;
 }
 .main-content {
-  margin-left: 80px; 
-  padding: 20px;
-  flex-grow: 1; 
-  min-height: 100vh; 
-  box-sizing: border-box;
+    margin-left: 80px; 
+    padding: 20px;
+    flex-grow: 1; 
+    min-height: 100vh; 
+    box-sizing: border-box;
 }
 
