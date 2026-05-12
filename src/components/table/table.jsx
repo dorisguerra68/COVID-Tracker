@@ -25,16 +25,16 @@ export const Table = () => {
     <tbody>
         <tr>
         
-            <td>US</td>
-            <td>USA</td>
-            <td>75578076</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td>0</td>
-            <td>907190</td>
-            <td>0</td>
-            <td>45937985</td>
-            <td>28732901</td>
-            <td>23746</td>
-            <td>898414462</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
         
         
