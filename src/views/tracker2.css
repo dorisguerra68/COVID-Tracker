@@ -1,0 +1,90 @@
+/* --- Contenedor Principal (Layout de 2 Columnas) --- */
+.tracker2-container {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 30px;
+    padding: 30px;
+    align-items: start;
+}
+
+/* --- Barra Lateral --- */
+.stats-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.tracker2-header h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* --- Listado de Tarjetas (Flexbox Vertical) --- */
+.summary-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Estructura interna de cada tarjeta */
+.summary-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    background-color: #ffffff; /* Fondo blanco idéntico al Top 10 */
+    border-radius: 8px;        /* Bordes redondeados idénticos */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); /* Sombra suave */
+    font-weight: 500;
+    transition: transform 0.2s ease;
+}
+.sumsummary-card card-total {
+    background-color: #e0f7fa;
+    color: #00796b;
+    box-shadow: 0 2px 4px rgba(0, 121, 107, 0.1);
+}
+
+.counter-zero {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* --- Sección Top 10 --- */
+.topo10 h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+
+.topo10-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Filas del Top 10 */
+.topo10-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.country-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* --- Contenedor de la Tabla --- */
+.tracker2-table-wrapper {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    overflow-x: auto; /* Mantiene la tabla responsiva */
+}
