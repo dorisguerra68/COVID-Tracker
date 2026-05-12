@@ -2,46 +2,105 @@
 import './tracker1.css'
 import GlobalTotal from '../components/global-total/global-total.jsx'
 import Img from '../assets/image/mapamundi.png' 
+
 export const Tracker1 = () => {
     return (
-    <>
-        
-            
         <main className="tracker1-container">
-            
-            <header className="dashboard-header">
-                <h1>COVID-19 Tracker</h1>
-                <p>Updated: <time dateTime="2020-05-15">May 15, 2020</time></p>
-            </header>
-
-            <div className="dashboard-content">
+            {/* PANEL IZQUIERDO: Resumen rápido y Top 10 */}
+            <aside className="sidebar-panel">
+                <header className="dashboard-header">
+                    <h2>COVID-19 Tracker</h2>
+                    <span className="updated-date">Updated: May 15, 2020</span>
+                </header>
                 
-                {/* Lado izquierdo: Resumen y Rankings */}
-                <aside className="stats-aside">
-                    {/* Aquí podrías llamar a un componente <CountryRank /> */}
-                    <section className="summary-list" aria-label="Resumen rápido">
-                        {/* Tarjetas de Total, Active, Recovered, Deaths */}
-                    </section>
-                </aside>
+                <section className="summary-list" aria-label="Resumen rápido">
+                    <div className="summary-card card-recovered-top">
+                        <span>Recovered Case</span>
+                        <strong className="counter-zero">0</strong>
+                    </div>
+                    <div className="summary-card card-deaths-top">
+                        <span>Deaths Case</span>
+                        <strong className="counter-zero">5660039</strong>
+                    </div>
+                </section> 
 
-                {/* Zona central y derecha: Detalles y Mapa */}
-                <article className="stats-detail">
-                    <section className="detailed-grid">
-                        {/* Selectores y tarjetas grandes de datos */}
+                <section className="topo10">
+                    <h3>Top 10 Country</h3>
+                    <div className="topo10-list">
+                        <div className="topo10-item">
+                            <div className="country-info">
+                                <img src="flagcdn.com" alt="USA Flag" />
+                                <span>USA</span>
+                            </div>
+                            <strong>75578076</strong>
+                        </div>
+                        <div className="topo10-item">
+                            <div className="country-info">
+                                <img src="flagcdn.com" alt="Italy Flag" />
+                                <span>Italy</span>
+                            </div>
+                            <strong>10983116</strong>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+
+            {/* PANEL DERECHO: Grid de estadísticas, Mapa y Footer */}
+            <article className="stats-detail">
+                
+                <div className="main-dashboard-layout">
+                    {/* Bloque Izquierdo del Layout Principal: Datos del país */}
+                    <section className="detailed-grid-wrapper">
+                        <div className="country-selector-wrapper">
+                            <select className="country-select">
+                                <option value="colombia">Colombia</option>
+                            </select>
+                            <span className="global-update-text">Updated: January 31, 2022</span>
+                        </div>
+                        
+                        <div className="detailed-grid">
+                            <div className="stat-box text-blue">
+                                <span>Total Cases</span> 
+                                <strong>5871977</strong>
+                            </div>
+                            <div className="stat-box text-red">
+                                <span>Total Deaths</span> 
+                                <strong>134079</strong>
+                            </div>
+                            <div className="stat-box text-green">
+                                <span>Total Recovered</span> 
+                                <strong>5645142</strong>
+                            </div>
+                            <div className="stat-box text-blue-light">
+                                <span>Total Active</span> 
+                                <strong>92756</strong>
+                            </div>
+                            <div className="stat-box text-orange">
+                                <span>New Cases</span> 
+                                <strong>0</strong>
+                            </div>
+                            <div className="stat-box text-red-dark">
+                                <span>New Deaths</span> 
+                                <strong>0</strong>
+                            </div>
+                        </div>
                     </section>
 
+                    {/* Bloque Derecho del Layout Principal: Mapa */}
                     <figure className="map-container">
-                        <img src={Img} alt="Distribución geográfica de casos de COVID-19" className="mapamundi" />
+                        <div className="map-zoom-controls">
+                            <button>+</button>
+                            <button>-</button>
+                        </div>
+                        <img src={Img} alt="Distribución geográfica" className="mapamundi" />
                     </figure>
+                </div>
 
-                    {/* Fila inferior de totales globales */}
-                    <footer className="tracker1-GlobalTotal">
-                        <GlobalTotal />
-                    </footer>
-                </article>
-
-            </div>
+                {/* Fila inferior de totales globales */}
+                <footer className="tracker1-GlobalTotal">
+                    <GlobalTotal />
+                </footer>
+            </article>
         </main>
-    </>
     );
 };
