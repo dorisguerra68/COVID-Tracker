@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 import './global-total.css'
 import covidBlueIcon from '../../assets/images/icons/covid-blue.svg'
 import covidGreenIcon from '../../assets/images/icons/covid-green.svg'
