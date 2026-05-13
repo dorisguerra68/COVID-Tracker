@@ -33,15 +33,15 @@
     justify-content: space-between;
     align-items: center;
     padding: 14px 20px;
-    background-color: #ffffff; /* Fondo blanco idéntico al Top 10 */
-    border-radius: 8px;        /* Bordes redondeados idénticos */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); /* Sombra suave */
+    background-color: var(t--third-color);
+    border-radius: 8px;        
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); 
     font-weight: 500;
     transition: transform 0.2s ease;
 }
 .sumsummary-card card-total {
-    background-color: #e0f7fa;
-    color: #00796b;
+    background-color: var (--background-color);
+    color: var(--text-color3    );
     box-shadow: 0 2px 4px rgba(0, 121, 107, 0.1);
 }
 
@@ -69,7 +69,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 12px 15px;
-    background-color: #ffffff;
+    background-color: var(--third-color);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
 }
@@ -82,7 +82,7 @@
 
 /* --- Contenedor de la Tabla --- */
 .tracker2-table-wrapper {
-    background-color: #ffffff;
+    background-color: var(--fourth-color);
     border-radius: 12px;
     padding: 30px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
