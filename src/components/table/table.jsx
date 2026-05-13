@@ -62,7 +62,7 @@ export const Table = () => {
             <th>Tested</th>
             </tr>
         </thead>
-         {/* Aquí se mapearían o consumo de los datos de la API para crear filas dinámicamente */}
+         {/*  consumo de los datos de la API para crear filas dinámicamente */}
     <tbody>
         {countries && countries.map((country) => (
             <tr key={country.countryInfo?._id || country.country}>
