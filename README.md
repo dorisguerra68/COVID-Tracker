@@ -1,16 +1,52 @@
-# React + Vite
+# Nombre del Proyecto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Breve descripción de una o dos líneas sobre qué hace este proyecto y su objetivo principal.
 
-Currently, two official plugins are available:
+## 🚀 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+*   **📊 Plataforma Interactiva de Visualización de Datos:** que permiten al usuario explorar las métricas del COVID-19 de forma intuitiva y visual.
+*   **⏱️ Análisis de Datos en Tiempo Real:** Conexión directa con la API Disease.sh para extraer, procesar y mostrar estadísticas actualizadas al instante sin retrasos.
+*   **📈 Escalabilidad para Futuras Pandemias:** Estructura de código limpia y modular diseñada para adaptar el sistema a cualquier otro brote o crisis sanitaria global con mínimos cambios.
 
-## React Compiler
+## 📦 Instalación
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# Clonar el repositorio
+git clone https://github.com/dorisguerra68/COVID-Tracker.git
 
-## Expanding the ESLint configuration
+# Instalar dependencias
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Estructura del Proyecto
+
+```text
+Covid-Tracker/
+├── public/              # Archivos públicos del navegador
+├── src/
+│   ├── assets/          # Imágenes, fuentes y archivos estáticos
+│   ├── components/      # Componentes reutilizables de la interfaz
+│   ├── views/           # Páginas o vistas principales (Home, Tracker1, Tracker2)
+│   ├── App.js           # Componente principal de la aplicación
+│   ├── index.js         # Punto de entrada del proyecto
+│   ├── main.jsx         # Conexión del Router
+│   └── Router.jsx       # El mapa de las vías de navegación (vistas)
+├── package.json         # Configuración y dependencias del proyecto
+└── README.md            # Documentación del proyecto
+```
+
+```
+
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Lenguaje:** JavaScript / Python / Java
+- **Framework:** React / Django / Spring
+- **Base de datos:** PostgreSQL / MongoDB
+
+
+
+
+## ✒️ Autores
+
+- **Doris Guerra, Yasira Gonzalez,Debby Gonzales, Dorien LLanes ** - *Trabajo Inicial* - [TuUsuarioGitHub](https://github.com/dorisguerra68/COVID-Tracker)
