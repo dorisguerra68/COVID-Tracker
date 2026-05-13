@@ -8,11 +8,9 @@ body{
     background-color: var(--background-color);
 }
 :root{
-    --primary-color: #fbfcff;
+    --primary-color: #9fa8da;
     --secondary-color: #3f51b5;
-    --third-color:   #eaeafa;
-    --fourth-color:  #fdfdff;
-    --background-color: #e0e0ed;
+    --background-color: #ffffff;
     --text-color1: #e91e63; 
     --text-color2: #ff9800;
     --text-color3: #4caf50;
@@ -37,4 +35,4 @@ h2{
     flex-grow: 1; 
     min-height: 100vh; 
     box-sizing: border-box;
-}
+} 
