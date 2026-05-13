@@ -62,7 +62,10 @@ export const Tracker1 = () => {
                                 countries={countries}
                                 selectedCountry={selectedCountry}
                                 onChangeCountry={setSelectedCountry}
+
+                                
                             />
+                          
                             <span className="global-update-text">Updated: January 31, 2022</span>
                         </div>
 
@@ -106,7 +109,7 @@ export const Tracker1 = () => {
 
                 {/* Fila inferior de totales globales */}
                 <footer className="tracker1-GlobalTotal">
-                    <GlobalTotal />
+                   <GlobalTotal selectedCountry={selectedCountry} />
                 </footer>
             </article>
         </main>
