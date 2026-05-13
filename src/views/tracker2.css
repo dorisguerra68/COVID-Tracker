@@ -33,7 +33,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 14px 20px;
-    background-color: var(t--primary-color);
+    background-color: var(--primary-color);
     border-radius: 8px;        
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02); 
     font-weight: 500;
@@ -69,7 +69,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 12px 15px;
-    background-color: var(--third-color);
+    background-color: var(--primary-color);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
 }
