@@ -43,9 +43,9 @@ Covid-Tracker/
 
 ## 🛠️ Tecnologías Utilizadas
 
-- **Lenguaje:** JavaScript / Python / Java
-- **Framework:** React / Django / Spring
-- **Base de datos:** PostgreSQL / MongoDB
+- **Lenguaje:** JavaScript 
+- **Framework:** React 
+- **Base de datos:** API disease. (https://disease.sh/)
 
 
 
