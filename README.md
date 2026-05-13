@@ -1,6 +1,9 @@
-# Nombre del Proyecto
 
-Breve descripción de una o dos líneas sobre qué hace este proyecto y su objetivo principal.
+
+# 🦠 Covid-Tracker Dashboard
+
+Plataforma interactiva y dinámica diseñada para centralizar, procesar y visualizar métricas globales y regionales sobre el impacto del COVID-19 en tiempo real.
+
 
 ## 🚀 Características
 
